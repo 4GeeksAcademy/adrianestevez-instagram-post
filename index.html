@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrián Estévez - Post de Instagram</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="post">
+      <div class="post-header">
+        <div class="header-left">
+          <i class="fa-solid fa-camera"></i>
+          <div class="p-header">
+            <p id="titulo"></p>
+            <p id="lugar"></p>
+          </div>
+        </div>
+        <div class="header-right">
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+      </div>
+      <div class="post-img">
+        <img src="https://images.squarespace-cdn.com/content/v1/5438e2c6e4b0b18459a8ca06/1532970699746-7YZRI75T6Y1H8I1BWL1D/GTJ-2018-0731-27.jpg" alt="imagen de la cascada Gullfoss en Islandia">
+      </div>
+      <div class="post-body">
+        <div class="post-icons">
+          <div class="icons-left">
+            <!--Cambiar a fa-solid fa-heart cuando se clica-->
+            <i class="fa-regular fa-heart" id="like"></i>
+            <i class="fa-regular fa-comment"></i>
+            <i class="fa-regular fa-paper-plane"></i>
+          </div>
+          
+          <div class="icons-right">
+            <!--Cambiar a fa-solid fa-bookmark cuando se clica-->
+            <i class="fa-regular fa-bookmark" id="save"></i>
+          </div>
+        </div>
+        <p class="post-rating"></p>
+        <p class="post-description"></p>
+      </div>
+    </div>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
